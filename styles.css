@@ -1,1 +1,25 @@
 /*  your css code here. If applicable */
+ table {
+      border-collapse: collapse;
+      width: 100%;
+      border: 1px solid orange;
+    }
+
+    th, td {
+      border: 1px solid orange;
+      padding: 3px;
+    }
+
+    th {
+      background-color: #888;
+      color: #fff;
+    }
+
+    .subTotalRow td:nth-last-child(-n+2) {
+      text-align: right;
+    }
+
+    .bottomBorder, .rightBorder {
+      border-bottom: 2px solid orange;
+      border-right: 2px solid orange;
+    }

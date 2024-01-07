@@ -8,6 +8,50 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	
+  <table>
+    <thead>
+      <tr>
+        <th>Firm</th>
+        <th>Org</th>
+        <th>Lob</th>
+        <th>Sub Lob</th>
+        <th>Business Plans</th>
+        <th>Business Components</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td rowspan="2">ABC Ltd</td>
+        <td rowspan="2">Sales</td>
+        <td rowspan="2">Division A</td>
+        <td>Sub-Division A1</td>
+        <td>Plan 1</td>
+        <td class="rightBorder">Component 1</td>
+      </tr>
+      <tr>
+        <td class="bottomBorder">Sub-Division A2</td>
+        <td class="bottomBorder">Plan 2</td>
+        <td class="bottomBorder rightBorder">Component 2</td>
+      </tr>
+      <tr>
+        <td rowspan="3">DEF Ltd</td>
+        <td>HR</td>
+        <td>Division B</td>
+        <td class="bottomBorder">Sub-Division B1</td>
+        <td class="bottomBorder">Plan 3</td>
+        <td class="bottomBorder rightBorder">Component 3</td>
+      </tr>
+      <!-- Add more rows as needed -->
+      <!-- Sub-total rows -->
+      <tr class="subTotalRow">
+        <td colspan="4">Sub-Total</td>
+        <td class="rightBorder">Sub-Total Plans</td>
+        <td class="rightBorder">Sub-Total Components</td>
+      </tr>
+    </tbody>
+  </table>
+
     <script type="text/javascript" src="./script.js">
 </script>
 
